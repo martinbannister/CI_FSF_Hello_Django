@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.prase('postgres://wxwnmloumyzsgb:86e2d4925584cc2c2fea1ba8073ae66b87ed5362194b926c26eb56440996d2b7@ec2-54-247-96-153.eu-west-1.compute.amazonaws.com:5432/d9fhs6rk31v4at')
+    'default': dj_database_url.parse('postgres://wxwnmloumyzsgb:86e2d4925584cc2c2fea1ba8073ae66b87ed5362194b926c26eb56440996d2b7@ec2-54-247-96-153.eu-west-1.compute.amazonaws.com:5432/d9fhs6rk31v4at')
 }
 
 
